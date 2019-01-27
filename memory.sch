@@ -497,4 +497,150 @@ Wire Bus Line
 	2100 1250 2100 6550
 Wire Bus Line
 	1650 1750 1650 7050
+Text Label 2300 1550 0    50   ~ 0
+MAR_Q0
+Text Label 2300 1650 0    50   ~ 0
+MAR_Q1
+Text Label 2300 1750 0    50   ~ 0
+MAR_Q2
+Text Label 2300 1850 0    50   ~ 0
+MAR_Q3
+Text Label 2300 2050 0    50   ~ 0
+PC_Q0
+Text Label 2300 2150 0    50   ~ 0
+PC_Q1
+Text Label 2300 2250 0    50   ~ 0
+PC_Q2
+Text Label 2300 2350 0    50   ~ 0
+PC_Q3
+Text Label 2300 3150 0    50   ~ 0
+MAR_Q4
+Text Label 2300 3250 0    50   ~ 0
+MAR_Q5
+Text Label 2300 3350 0    50   ~ 0
+MAR_Q6
+Text Label 2300 3450 0    50   ~ 0
+MAR_Q7
+Text Label 2300 3650 0    50   ~ 0
+PC_Q4
+Text Label 2300 3750 0    50   ~ 0
+PC_Q5
+Text Label 2300 3850 0    50   ~ 0
+PC_Q6
+Text Label 2300 3950 0    50   ~ 0
+PC_Q7
+Text Label 2300 4750 0    50   ~ 0
+MAR_Q8
+Text Label 2300 4850 0    50   ~ 0
+MAR_Q9
+Text Label 2300 4950 0    50   ~ 0
+MAR_Q10
+Text Label 2300 5050 0    50   ~ 0
+MAR_Q11
+Text Label 2300 5250 0    50   ~ 0
+PC_Q8
+Text Label 2300 5350 0    50   ~ 0
+PC_Q9
+Text Label 2300 5450 0    50   ~ 0
+PC_Q10
+Text Label 2300 5550 0    50   ~ 0
+PC_Q11
+Text Label 2300 6350 0    50   ~ 0
+MAR_Q12
+Text Label 2300 6450 0    50   ~ 0
+MAR_Q13
+Text Label 2300 6550 0    50   ~ 0
+MAR_Q14
+Text Label 2300 6650 0    50   ~ 0
+MAR_Q15
+Text Label 2300 6850 0    50   ~ 0
+PC_Q12
+Text Label 2300 6950 0    50   ~ 0
+PC_Q13
+Text Label 2300 7050 0    50   ~ 0
+PC_Q14
+Text Label 2300 7150 0    50   ~ 0
+PC_Q15
+Text Label 4700 1550 2    50   ~ 0
+MEM_ADDR0
+Text Label 4700 1650 2    50   ~ 0
+MEM_ADDR1
+Text Label 4700 1750 2    50   ~ 0
+MEM_ADDR2
+Text Label 4700 1850 2    50   ~ 0
+MEM_ADDR3
+Text Label 4700 3150 2    50   ~ 0
+MEM_ADDR4
+Text Label 4700 3250 2    50   ~ 0
+MEM_ADDR5
+Text Label 4700 3350 2    50   ~ 0
+MEM_ADDR6
+Text Label 4700 3450 2    50   ~ 0
+MEM_ADDR7
+Text Label 4700 4750 2    50   ~ 0
+MEM_ADDR8
+Text Label 4700 4850 2    50   ~ 0
+MEM_ADDR9
+Text Label 4700 4950 2    50   ~ 0
+MEM_ADDR10
+Text Label 4700 5050 2    50   ~ 0
+MEM_ADDR11
+Text Label 4700 6350 2    50   ~ 0
+MEM_ADDR12
+Text Label 4700 6450 2    50   ~ 0
+MEM_ADDR13
+Text Label 4700 6550 2    50   ~ 0
+MEM_ADDR14
+Text Label 4700 6650 2    50   ~ 0
+MEM_ADDR15
+Text Label 8150 2850 0    50   ~ 0
+MEM_ADDR0
+Text Label 8150 2950 0    50   ~ 0
+MEM_ADDR1
+Text Label 8150 3050 0    50   ~ 0
+MEM_ADDR2
+Text Label 8150 3150 0    50   ~ 0
+MEM_ADDR3
+Text Label 8150 3250 0    50   ~ 0
+MEM_ADDR4
+Text Label 8150 3350 0    50   ~ 0
+MEM_ADDR5
+Text Label 8150 3450 0    50   ~ 0
+MEM_ADDR6
+Text Label 8150 3550 0    50   ~ 0
+MEM_ADDR7
+Text Label 8150 3650 0    50   ~ 0
+MEM_ADDR8
+Text Label 8150 3750 0    50   ~ 0
+MEM_ADDR9
+Text Label 8150 3850 0    50   ~ 0
+MEM_ADDR10
+Text Label 8150 3950 0    50   ~ 0
+MEM_ADDR11
+Text Label 8150 4050 0    50   ~ 0
+MEM_ADDR12
+Text Label 8150 4150 0    50   ~ 0
+MEM_ADDR13
+Text Label 8150 4250 0    50   ~ 0
+MEM_ADDR14
+Text Label 8150 4350 0    50   ~ 0
+MEM_ADDR15
+Text Label 6200 1250 0    50   ~ 0
+MEM_ADDR
+Text Label 10150 2850 2    50   ~ 0
+MEM_DQ0
+Text Label 10150 2950 2    50   ~ 0
+MEM_DQ1
+Text Label 10150 3050 2    50   ~ 0
+MEM_DQ2
+Text Label 10150 3150 2    50   ~ 0
+MEM_DQ3
+Text Label 10150 3250 2    50   ~ 0
+MEM_DQ4
+Text Label 10150 3350 2    50   ~ 0
+MEM_DQ5
+Text Label 10150 3450 2    50   ~ 0
+MEM_DQ6
+Text Label 10150 3550 2    50   ~ 0
+MEM_DQ7
 $EndSCHEMATC
