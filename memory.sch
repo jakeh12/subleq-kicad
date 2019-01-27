@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74xx_modified:AS6C1008 U?
+L 74xx_modified:AS6C1008 U17
 U 1 1 5CBBFD35
 P 9150 3400
-F 0 "U?" H 9150 4217 50  0000 C CNN
+F 0 "U17" H 9150 4217 50  0000 C CNN
 F 1 "AS6C1008" H 9150 4126 50  0000 C CNN
 F 2 "" H 9100 3400 50  0001 C CNN
 F 3 "" H 9100 3400 50  0001 C CNN
@@ -60,7 +60,7 @@ Entry Wire Line
 Wire Bus Line
 	10300 2550 10500 2550
 Text GLabel 10500 2550 2    50   BiDi ~ 0
-MEM_DQ
+MEM_DQ[0..15]
 Entry Wire Line
 	7950 4250 8050 4350
 Entry Wire Line
@@ -130,10 +130,10 @@ Wire Wire Line
 Wire Wire Line
 	7350 4650 7350 4450
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR04
 U 1 1 5CBC2B7B
 P 7350 4450
-F 0 "#PWR?" H 7350 4300 50  0001 C CNN
+F 0 "#PWR04" H 7350 4300 50  0001 C CNN
 F 1 "VCC" H 7367 4623 50  0000 C CNN
 F 2 "" H 7350 4450 50  0001 C CNN
 F 3 "" H 7350 4450 50  0001 C CNN
@@ -141,10 +141,10 @@ F 3 "" H 7350 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx_modified:74LS257 U?
+L 74xx_modified:74LS257 U13
 U 1 1 5C55466F
 P 3350 2150
-F 0 "U?" H 3100 2900 50  0000 C CNN
+F 0 "U13" H 3100 2900 50  0000 C CNN
 F 1 "74HC257" H 3350 1500 50  0000 C CNN
 F 2 "" H 3350 2150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS257" H 3350 2150 50  0001 C CNN
@@ -152,10 +152,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS257" H 3350 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx_modified:74LS257 U?
+L 74xx_modified:74LS257 U14
 U 1 1 5C5601F9
 P 3350 3750
-F 0 "U?" H 3100 4500 50  0000 C CNN
+F 0 "U14" H 3100 4500 50  0000 C CNN
 F 1 "74HC257" H 3350 3100 50  0000 C CNN
 F 2 "" H 3350 3750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS257" H 3350 3750 50  0001 C CNN
@@ -163,10 +163,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS257" H 3350 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx_modified:74LS257 U?
+L 74xx_modified:74LS257 U16
 U 1 1 5C560317
 P 3350 6950
-F 0 "U?" H 3100 7700 50  0000 C CNN
+F 0 "U16" H 3100 7700 50  0000 C CNN
 F 1 "74HC257" H 3350 6300 50  0000 C CNN
 F 2 "" H 3350 6950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS257" H 3350 6950 50  0001 C CNN
@@ -274,10 +274,10 @@ Wire Wire Line
 Wire Wire Line
 	2850 4750 2200 4750
 $Comp
-L 74xx_modified:74LS257 U?
+L 74xx_modified:74LS257 U15
 U 1 1 5C5602CB
 P 3350 5350
-F 0 "U?" H 3100 6100 50  0000 C CNN
+F 0 "U15" H 3100 6100 50  0000 C CNN
 F 1 "74HC257" H 3350 4700 50  0000 C CNN
 F 2 "" H 3350 5350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS257" H 3350 5350 50  0001 C CNN
@@ -425,17 +425,17 @@ Wire Wire Line
 Wire Bus Line
 	1450 1250 2100 1250
 Text GLabel 1450 900  0    50   Input ~ 0
-~ADDR_SEL
+~SEL_ADDR_PC_MAR
 Text GLabel 1450 1050 0    50   Input ~ 0
 ~ADDR_OE
 Text GLabel 1450 1250 0    50   Input ~ 0
-MAR_Q
+MAR_Q[0..15]
 Text GLabel 1450 1750 0    50   Input ~ 0
-PC_Q
+PC_Q[0..15]
 Text Notes 1950 750  0    50   ~ 0
 NOTE: !!! MAKE SURE THE ADDRESS SELECTION IS CORRECT (0 = A, 1 = B) !!!
 Text GLabel 5900 5400 0    50   Input ~ 0
-~MEM_WR
+~WR_MEM
 $Comp
 L 74xx:74LS04 U?
 U 4 1 5C5FDD6B
@@ -444,8 +444,8 @@ AR Path="/5C4F5C3F/5C5FDD6B" Ref="U?"  Part="1"
 AR Path="/5C4D6ED1/5C5FDD6B" Ref="U?"  Part="3" 
 AR Path="/5CB820A3/5C5FDD6B" Ref="U?"  Part="3" 
 AR Path="/5C4D52FD/5C5FDD6B" Ref="U?"  Part="3" 
-AR Path="/5CBABD04/5C5FDD6B" Ref="U?"  Part="4" 
-F 0 "U?" H 6750 5050 50  0000 C CNN
+AR Path="/5CBABD04/5C5FDD6B" Ref="U8"  Part="4" 
+F 0 "U8" H 6750 5050 50  0000 C CNN
 F 1 "74HC04" H 6750 4600 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 6750 4850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6750 4850 50  0001 C CNN
@@ -470,10 +470,10 @@ Connection ~ 6100 5400
 Wire Wire Line
 	8200 4750 8200 5200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR05
 U 1 1 5C637105
 P 8200 5200
-F 0 "#PWR?" H 8200 4950 50  0001 C CNN
+F 0 "#PWR05" H 8200 4950 50  0001 C CNN
 F 1 "GND" H 8205 5027 50  0000 C CNN
 F 2 "" H 8200 5200 50  0001 C CNN
 F 3 "" H 8200 5200 50  0001 C CNN
@@ -626,7 +626,7 @@ MEM_ADDR14
 Text Label 8150 4350 0    50   ~ 0
 MEM_ADDR15
 Text Label 6200 1250 0    50   ~ 0
-MEM_ADDR
+MEM_ADDR[0..15]
 Text Label 10150 2850 2    50   ~ 0
 MEM_DQ0
 Text Label 10150 2950 2    50   ~ 0

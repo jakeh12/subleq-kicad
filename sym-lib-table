@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name Oscillator_modified)(type Legacy)(uri /home/jhladik/Documents/KiCad/subleq/Oscillator_modified.lib)(options "")(descr ""))
 )

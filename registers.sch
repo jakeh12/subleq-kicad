@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 6 6
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -211,7 +211,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 8500 10200 8500
 Text GLabel 6650 2800 0    50   Input ~ 0
-MEM_DQ
+MEM_DQ[0..7]
 Text Label 7050 3300 0    50   ~ 0
 MEM_DQ0
 Text Label 7050 3400 0    50   ~ 0
@@ -330,8 +330,8 @@ U 1 1 5CBC6F47
 P 8850 3800
 AR Path="/5C4D6ED1/5CBC6F47" Ref="U?"  Part="1" 
 AR Path="/5CB820A3/5CBC6F47" Ref="U?"  Part="1" 
-AR Path="/5CBC693B/5CBC6F47" Ref="U?"  Part="1" 
-F 0 "U?" H 8600 4450 50  0000 C CNN
+AR Path="/5CBC693B/5CBC6F47" Ref="U18"  Part="1" 
+F 0 "U18" H 8600 4450 50  0000 C CNN
 F 1 "74HC377" H 8850 3150 50  0000 C CNN
 F 2 "" H 8850 3800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS377" H 8850 3800 50  0001 C CNN
@@ -344,8 +344,8 @@ U 1 1 5CBC6F4E
 P 8850 5300
 AR Path="/5C4D6ED1/5CBC6F4E" Ref="U?"  Part="1" 
 AR Path="/5CB820A3/5CBC6F4E" Ref="U?"  Part="1" 
-AR Path="/5CBC693B/5CBC6F4E" Ref="U?"  Part="1" 
-F 0 "U?" H 8600 5950 50  0000 C CNN
+AR Path="/5CBC693B/5CBC6F4E" Ref="U19"  Part="1" 
+F 0 "U19" H 8600 5950 50  0000 C CNN
 F 1 "74HC377" H 8850 4650 50  0000 C CNN
 F 2 "" H 8850 5300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS377" H 8850 5300 50  0001 C CNN
@@ -358,8 +358,8 @@ U 1 1 5CBC6F55
 P 8850 6800
 AR Path="/5C4D6ED1/5CBC6F55" Ref="U?"  Part="1" 
 AR Path="/5CB820A3/5CBC6F55" Ref="U?"  Part="1" 
-AR Path="/5CBC693B/5CBC6F55" Ref="U?"  Part="1" 
-F 0 "U?" H 8600 7450 50  0000 C CNN
+AR Path="/5CBC693B/5CBC6F55" Ref="U20"  Part="1" 
+F 0 "U20" H 8600 7450 50  0000 C CNN
 F 1 "74HC377" H 8850 6150 50  0000 C CNN
 F 2 "" H 8850 6800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS377" H 8850 6800 50  0001 C CNN
@@ -372,8 +372,8 @@ U 1 1 5CBC6F5C
 P 8850 8300
 AR Path="/5C4D6ED1/5CBC6F5C" Ref="U?"  Part="1" 
 AR Path="/5CB820A3/5CBC6F5C" Ref="U?"  Part="1" 
-AR Path="/5CBC693B/5CBC6F5C" Ref="U?"  Part="1" 
-F 0 "U?" H 8600 8950 50  0000 C CNN
+AR Path="/5CBC693B/5CBC6F5C" Ref="U21"  Part="1" 
+F 0 "U21" H 8600 8950 50  0000 C CNN
 F 1 "74HC377" H 8850 7650 50  0000 C CNN
 F 2 "" H 8850 8300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS377" H 8850 8300 50  0001 C CNN
@@ -419,7 +419,7 @@ Text GLabel 6650 2600 0    50   Input ~ 0
 Text GLabel 6650 2000 0    50   Input ~ 0
 CLK
 Text GLabel 10500 6100 2    50   Output ~ 0
-MAR_Q
+MAR_Q[0..15]
 Connection ~ 8250 7200
 Wire Wire Line
 	9350 3300 10200 3300
@@ -490,9 +490,9 @@ Wire Bus Line
 Wire Bus Line
 	10300 3000 10500 3000
 Text GLabel 10500 3000 2    50   Output ~ 0
-A
+A[0..7]
 Text GLabel 10500 4500 2    50   Output ~ 0
-B
+B[0..7]
 Text Label 10150 3300 2    50   ~ 0
 A0
 Text Label 10150 3400 2    50   ~ 0

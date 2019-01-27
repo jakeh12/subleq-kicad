@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 3 6
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -289,9 +289,9 @@ Wire Bus Line
 Wire Bus Line
 	9700 3200 9900 3200
 Text GLabel 9900 3200 2    50   Output ~ 0
-PC_Q
+PC_Q[0..15]
 Text GLabel 6850 3200 0    50   Input ~ 0
-MAR_Q
+MAR_Q[0..15]
 Wire Wire Line
 	8150 4100 7850 4100
 Connection ~ 7850 4100
@@ -332,7 +332,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 2450 6850 2450
 Text GLabel 6850 2450 0    50   Input ~ 0
-~PC_INC
+~INC_PC
 Wire Wire Line
 	7150 3600 8150 3600
 Text Label 9550 3500 2    50   ~ 0
@@ -371,4 +371,36 @@ Wire Bus Line
 	7050 3200 7050 8050
 Wire Bus Line
 	9700 3200 9700 8050
+Text Label 7250 3500 0    50   ~ 0
+MAR_Q0
+Text Label 7250 3600 0    50   ~ 0
+MAR_Q1
+Text Label 7250 3700 0    50   ~ 0
+MAR_Q2
+Text Label 7250 3800 0    50   ~ 0
+MAR_Q3
+Text Label 7250 4950 0    50   ~ 0
+MAR_Q4
+Text Label 7250 5050 0    50   ~ 0
+MAR_Q5
+Text Label 7250 5150 0    50   ~ 0
+MAR_Q6
+Text Label 7250 5250 0    50   ~ 0
+MAR_Q7
+Text Label 7250 6400 0    50   ~ 0
+MAR_Q8
+Text Label 7250 6500 0    50   ~ 0
+MAR_Q9
+Text Label 7250 6600 0    50   ~ 0
+MAR_Q10
+Text Label 7250 6700 0    50   ~ 0
+MAR_Q11
+Text Label 7250 7850 0    50   ~ 0
+MAR_Q12
+Text Label 7250 7950 0    50   ~ 0
+MAR_Q13
+Text Label 7250 8050 0    50   ~ 0
+MAR_Q14
+Text Label 7250 8150 0    50   ~ 0
+MAR_Q15
 $EndSCHEMATC

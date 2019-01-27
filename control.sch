@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -191,7 +191,7 @@ Connection ~ 3550 4050
 Text GLabel 3150 3900 0    50   Input ~ 0
 ~RST
 Text GLabel 3150 4050 0    50   Input ~ 0
-~CLK
+CLK
 Connection ~ 11750 3600
 Wire Wire Line
 	11750 3600 11950 3600
@@ -341,7 +341,7 @@ Wire Wire Line
 Wire Wire Line
 	12650 6350 13600 6350
 Text GLabel 13600 6350 2    50   Output ~ 0
-~ADDR_SEL
+~SEL_ADDR_PC_MAR
 $Comp
 L 74xx:74LS11 U?
 U 1 1 5C4E9D5F
@@ -414,7 +414,7 @@ Wire Wire Line
 Wire Wire Line
 	13500 7150 13600 7150
 Text GLabel 13600 7150 2    50   Output ~ 0
-~PC_INC
+~INC_PC
 Connection ~ 9350 4650
 Connection ~ 8550 4500
 Connection ~ 5350 4350
@@ -458,8 +458,8 @@ L power:VCC #PWR?
 U 1 1 5C4E9D9E
 P 12850 6800
 AR Path="/5C4E9D9E" Ref="#PWR?"  Part="1" 
-AR Path="/5C4E38C4/5C4E9D9E" Ref="#PWR01"  Part="1" 
-F 0 "#PWR01" H 12850 6650 50  0001 C CNN
+AR Path="/5C4E38C4/5C4E9D9E" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 12850 6650 50  0001 C CNN
 F 1 "VCC" H 12867 6973 50  0000 C CNN
 F 2 "" H 12850 6800 50  0001 C CNN
 F 3 "" H 12850 6800 50  0001 C CNN
@@ -469,10 +469,10 @@ $EndComp
 Text Notes 3600 2400 0    50   ~ 0
 NOTE: !!! 74HC107 IS NEGATIVE EDGE TRIGGERED !!!
 $Comp
-L 74xx_modified:74HC107 U?
+L 74xx_modified:74HC107 U1
 U 1 1 5C685FFC
 P 3900 3500
-F 0 "U?" H 3900 3867 50  0000 C CNN
+F 0 "U1" H 3900 3867 50  0000 C CNN
 F 1 "74HC107" H 3900 3776 50  0000 C CNN
 F 2 "" H 3900 3500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 3900 3500 50  0001 C CNN
@@ -480,10 +480,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 3900 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx_modified:74HC107 U?
+L 74xx_modified:74HC107 U1
 U 2 1 5C6861B7
 P 5000 3500
-F 0 "U?" H 5000 3867 50  0000 C CNN
+F 0 "U1" H 5000 3867 50  0000 C CNN
 F 1 "74HC107" H 5000 3776 50  0000 C CNN
 F 2 "" H 5000 3500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 5000 3500 50  0001 C CNN
@@ -491,10 +491,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 5000 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx_modified:74HC107 U?
+L 74xx_modified:74HC107 U2
 U 1 1 5C690178
 P 5800 3500
-F 0 "U?" H 5800 3867 50  0000 C CNN
+F 0 "U2" H 5800 3867 50  0000 C CNN
 F 1 "74HC107" H 5800 3776 50  0000 C CNN
 F 2 "" H 5800 3500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 5800 3500 50  0001 C CNN
@@ -502,10 +502,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 5800 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx_modified:74HC107 U?
+L 74xx_modified:74HC107 U3
 U 1 1 5C6901CC
 P 7400 3500
-F 0 "U?" H 7400 3867 50  0000 C CNN
+F 0 "U3" H 7400 3867 50  0000 C CNN
 F 1 "74HC107" H 7400 3776 50  0000 C CNN
 F 2 "" H 7400 3500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 7400 3500 50  0001 C CNN
@@ -513,10 +513,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 7400 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx_modified:74HC107 U?
+L 74xx_modified:74HC107 U4
 U 1 1 5C690214
 P 9000 3500
-F 0 "U?" H 9000 3867 50  0000 C CNN
+F 0 "U4" H 9000 3867 50  0000 C CNN
 F 1 "74HC107" H 9000 3776 50  0000 C CNN
 F 2 "" H 9000 3500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 9000 3500 50  0001 C CNN
@@ -524,10 +524,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 9000 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx_modified:74HC107 U?
+L 74xx_modified:74HC107 U5
 U 1 1 5C690356
 P 10600 3500
-F 0 "U?" H 10600 3867 50  0000 C CNN
+F 0 "U5" H 10600 3867 50  0000 C CNN
 F 1 "74HC107" H 10600 3776 50  0000 C CNN
 F 2 "" H 10600 3500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 10600 3500 50  0001 C CNN
@@ -535,10 +535,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 10600 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx_modified:74HC107 U?
+L 74xx_modified:74HC107 U2
 U 2 1 5C6903F8
 P 6600 3500
-F 0 "U?" H 6600 3867 50  0000 C CNN
+F 0 "U2" H 6600 3867 50  0000 C CNN
 F 1 "74HC107" H 6600 3776 50  0000 C CNN
 F 2 "" H 6600 3500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 6600 3500 50  0001 C CNN
@@ -546,10 +546,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 6600 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx_modified:74HC107 U?
+L 74xx_modified:74HC107 U3
 U 2 1 5C690444
 P 8200 3500
-F 0 "U?" H 8200 3867 50  0000 C CNN
+F 0 "U3" H 8200 3867 50  0000 C CNN
 F 1 "74HC107" H 8200 3776 50  0000 C CNN
 F 2 "" H 8200 3500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 8200 3500 50  0001 C CNN
@@ -557,10 +557,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 8200 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx_modified:74HC107 U?
+L 74xx_modified:74HC107 U4
 U 2 1 5C690488
 P 9800 3500
-F 0 "U?" H 9800 3867 50  0000 C CNN
+F 0 "U4" H 9800 3867 50  0000 C CNN
 F 1 "74HC107" H 9800 3776 50  0000 C CNN
 F 2 "" H 9800 3500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 9800 3500 50  0001 C CNN
@@ -568,10 +568,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 9800 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx_modified:74HC107 U?
+L 74xx_modified:74HC107 U5
 U 2 1 5C6905AE
 P 11400 3500
-F 0 "U?" H 11400 3867 50  0000 C CNN
+F 0 "U5" H 11400 3867 50  0000 C CNN
 F 1 "74HC107" H 11400 3776 50  0000 C CNN
 F 2 "" H 11400 3500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 11400 3500 50  0001 C CNN
