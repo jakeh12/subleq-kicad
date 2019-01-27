@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 3 7
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
