@@ -1,0 +1,161 @@
+EESchema Schematic File Version 4
+LIBS:subleq-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx_modified:AS6C1008 U?
+U 1 1 5CBBFD35
+P 5500 3350
+F 0 "U?" H 5500 4167 50  0000 C CNN
+F 1 "AS6C1008" H 5500 4076 50  0000 C CNN
+F 2 "" H 5450 3350 50  0001 C CNN
+F 3 "" H 5450 3350 50  0001 C CNN
+	1    5500 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2800 6550 2800
+Wire Wire Line
+	6000 2900 6550 2900
+Wire Wire Line
+	6000 3000 6550 3000
+Wire Wire Line
+	6000 3100 6550 3100
+Wire Wire Line
+	6000 3200 6550 3200
+Wire Wire Line
+	6000 3300 6550 3300
+Wire Wire Line
+	6000 3400 6550 3400
+Wire Wire Line
+	6000 3500 6550 3500
+Entry Wire Line
+	6550 2800 6650 2700
+Entry Wire Line
+	6550 2900 6650 2800
+Entry Wire Line
+	6550 3000 6650 2900
+Entry Wire Line
+	6550 3100 6650 3000
+Entry Wire Line
+	6550 3200 6650 3100
+Entry Wire Line
+	6550 3300 6650 3200
+Entry Wire Line
+	6550 3400 6650 3300
+Entry Wire Line
+	6550 3500 6650 3400
+Wire Bus Line
+	6650 2500 6850 2500
+Text GLabel 6850 2500 2    50   BiDi ~ 0
+MEM_DQ
+Wire Bus Line
+	4300 2500 4100 2500
+Entry Wire Line
+	4300 4200 4400 4300
+Entry Wire Line
+	4300 4100 4400 4200
+Entry Wire Line
+	4300 4000 4400 4100
+Entry Wire Line
+	4300 3900 4400 4000
+Entry Wire Line
+	4300 3800 4400 3900
+Entry Wire Line
+	4300 3700 4400 3800
+Entry Wire Line
+	4300 3600 4400 3700
+Entry Wire Line
+	4300 3500 4400 3600
+Entry Wire Line
+	4300 3400 4400 3500
+Entry Wire Line
+	4300 3300 4400 3400
+Entry Wire Line
+	4300 3200 4400 3300
+Entry Wire Line
+	4300 3100 4400 3200
+Entry Wire Line
+	4300 3000 4400 3100
+Entry Wire Line
+	4300 2900 4400 3000
+Entry Wire Line
+	4300 2800 4400 2900
+Entry Wire Line
+	4300 2700 4400 2800
+Wire Wire Line
+	4400 2800 5000 2800
+Wire Wire Line
+	4400 2900 5000 2900
+Wire Wire Line
+	4400 3000 5000 3000
+Wire Wire Line
+	4400 3100 5000 3100
+Wire Wire Line
+	4400 3200 5000 3200
+Wire Wire Line
+	4400 3300 5000 3300
+Wire Wire Line
+	4400 3400 5000 3400
+Wire Wire Line
+	4400 3500 5000 3500
+Wire Wire Line
+	4400 3600 5000 3600
+Wire Wire Line
+	4400 3700 5000 3700
+Wire Wire Line
+	4400 3800 5000 3800
+Wire Wire Line
+	4400 3900 5000 3900
+Wire Wire Line
+	4400 4000 5000 4000
+Wire Wire Line
+	4400 4100 5000 4100
+Wire Wire Line
+	4400 4200 5000 4200
+Wire Wire Line
+	4400 4300 5000 4300
+Wire Wire Line
+	5000 4600 3700 4600
+Wire Wire Line
+	3700 4600 3700 4400
+Wire Wire Line
+	5000 4700 3600 4700
+Wire Wire Line
+	3600 4700 3600 4000
+Wire Wire Line
+	5000 4800 3500 4800
+Wire Wire Line
+	3500 4800 3500 4100
+Wire Wire Line
+	5000 4900 3400 4900
+Wire Wire Line
+	3400 4900 3400 4200
+Wire Bus Line
+	6650 2500 6650 3400
+Wire Bus Line
+	4300 2500 4300 4200
+$Comp
+L power:VCC #PWR?
+U 1 1 5CBC2B7B
+P 3700 4400
+F 0 "#PWR?" H 3700 4250 50  0001 C CNN
+F 1 "VCC" H 3717 4573 50  0000 C CNN
+F 2 "" H 3700 4400 50  0001 C CNN
+F 3 "" H 3700 4400 50  0001 C CNN
+	1    3700 4400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

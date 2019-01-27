@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
-Sheet 3 4
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -291,7 +291,7 @@ Wire Bus Line
 Text GLabel 9900 3200 2    50   Output ~ 0
 PC_Q
 Text GLabel 6850 3200 0    50   Input ~ 0
-PC_D
+MAR_Q
 Wire Wire Line
 	8150 4100 7850 4100
 Connection ~ 7850 4100
@@ -335,38 +335,6 @@ Text GLabel 6850 2450 0    50   Input ~ 0
 ~PC_INC
 Wire Wire Line
 	7150 3600 8150 3600
-Text Label 7250 3500 0    50   ~ 0
-PC_D0
-Text Label 7250 3600 0    50   ~ 0
-PC_D1
-Text Label 7250 3700 0    50   ~ 0
-PC_D2
-Text Label 7250 3800 0    50   ~ 0
-PC_D3
-Text Label 7250 4950 0    50   ~ 0
-PC_D4
-Text Label 7250 5050 0    50   ~ 0
-PC_D5
-Text Label 7250 5150 0    50   ~ 0
-PC_D6
-Text Label 7250 5250 0    50   ~ 0
-PC_D7
-Text Label 7250 6400 0    50   ~ 0
-PC_D8
-Text Label 7250 6500 0    50   ~ 0
-PC_D9
-Text Label 7250 6600 0    50   ~ 0
-PC_D10
-Text Label 7250 6700 0    50   ~ 0
-PC_D11
-Text Label 7250 7850 0    50   ~ 0
-PC_D12
-Text Label 7250 7950 0    50   ~ 0
-PC_D13
-Text Label 7250 8050 0    50   ~ 0
-PC_D14
-Text Label 7250 8150 0    50   ~ 0
-PC_D15
 Text Label 9550 3500 2    50   ~ 0
 PC_Q0
 Text Label 9550 3600 2    50   ~ 0
